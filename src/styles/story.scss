@@ -1,0 +1,82 @@
+.storyContainer {
+  width: 100%;
+  position: relative;
+  transition: 1s;
+ 
+  .waveDiv {
+    width: 100%;
+  }
+  .bgContainer {
+    height: 715px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    
+    .wave-green_down {
+      background: url(../images/wave-green.png);
+      content: "";
+      height: 45px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+    }
+
+    .wave-white_up {
+      width: 100%;
+      background: url(../images/wave-white.png);
+      content: "";
+      height: 44px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      @media screen and (min-width: 1400px) {
+   
+      }
+    }
+    @media screen and (max-width: $break-large) {
+      height: 722px;
+    }
+
+    @media screen and (max-width: $phone) {
+      height: 422px;
+    }
+
+    @media screen and (max-width: 500px) {
+      height: 372px;
+    }
+  }
+  .imageMarquee {
+   // height: 186px; /* Any size you want */
+    // background: url(../images/story-iconset-bottom.png) repeat-x 0 / 80% auto;
+    background: url(../images/bg_ground_-03.svg) repeat-x 0 / 100% auto;
+    animation: ani 10s linear infinite;
+  }
+  .orderNow {
+    z-index: 1000000;
+  }
+  @keyframes ani {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100vw 0;
+    }
+  }
+}
+.nudge {
+ // transform: translateY(40px);
+  // transition: transform 1s;
+}
