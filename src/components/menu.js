@@ -43,18 +43,16 @@ const Menu = () => {
             fluid={data.iconSet.childImageSharp.fluid}
           />
           <p className="text-3xl lg:text-4xl xl:text-5xl text-center md:text-left text-yellow font-semibold w-11/12 xsm:w-2/3 md:w-11/12 lg:w-3/4 xl:w-2/3 mx-auto pb-10 md:pb-0">
-            Order for your movie night or as an exciting lunch time treat -
-            because, let’s face it, life is always better with burritos.
+          Itacate se adapta a tu noche de películas o un emocionante almuerzo, porque, seamos sinceros, la vida siempre es mejor con burritos.
           </p>
         </div>
       </div>
       <div className="top-text w-full text-center">
         <p className="text-black text-xl xxsm:text-2xl xxsm:pt-10 ">
-          Brace yourself for a Mexican feast of flavours, <br /> from cool
-          guacamole to tangy salsa.
+        Prepárate para un festín de sabores Tex-Mex con Guacamole, <br/> Pico de Gallo y Chilli.
         </p>
-        <h1 className="text-green text-2xl xxsm:text-4xl sm:text-5xl font-semibold mt-10 xxsm:pb-10">
-          EXPLORE OUR MENU TODAY!
+        <h1 className="text-green text-2xl xxsm:text-4xl sm:text-5xl font-semibold mt-10 xxsm:pb-10 uppercase">
+        ¡Explora nuestro menú!
         </h1>
       </div>
       <MenuItem

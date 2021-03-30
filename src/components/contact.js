@@ -8,31 +8,32 @@ const Contact = () => {
     <section className="contactContainer bg-green" id="follow">
       <div className="center-div w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 mx-auto flex justify-between pt-0 py-10 xsm:py-14">
         <div className="followUs-div mr-10">
-          <h1 className="text-yellow text-xl xxsm:text-2xl uppercase">follow us</h1>
+          <h1 className="text-yellow text-xl xxsm:text-2xl uppercase">
+            follow us
+          </h1>
           <div className="some-div flex justify-between">
-          <div className="fbDiv w-10">
-          <img className="w-full" src={fb} alt="facebook" />
-        </div>
-        <div className="igDiv w-10">
-          <img className="w-full" src={ig} alt="instagram" />
-        </div>
+            <div className="fbDiv w-10">
+              <img className="w-full" src={fb} alt="facebook" />
+            </div>
+            <div className="igDiv w-10">
+              <img className="w-full" src={ig} alt="instagram" />
+            </div>
           </div>
-        
         </div>
         <div className="legal-div text-center ">
           {/* <h1 className="text-yellow text-2xl uppercase">contact</h1>
           <p className="text-white text-xl">hello@itacateburittos.com</p> */}
           <ul text-white>
-          <li>
-            <Link to="/imprint">Imprint</Link>
+            <li>
+              <Link to="/imprint">Imprimir</Link>
             </li>
             <li>
-            <Link to="/privacy">Privacy Policy </Link>
+              <Link to="/privacy">Política de privacidad </Link>
             </li>
             <li>
-            <Link to="/disclaimer">Disclaimer</Link>
+              <Link to="/disclaimer">Descargo de responsabilidad</Link>
             </li>
-        </ul>
+          </ul>
         </div>
       </div>
     </section>

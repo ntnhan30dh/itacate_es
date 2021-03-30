@@ -52,8 +52,7 @@ const Followus = () => {
     <section className="videoContainer relative bg-yellow xsm:mt-20">
       <span className="wave-white-top"></span>
       <p className=" w-2/3  xl:w-2/5   mx-auto text-red text-2xl  md:text-3xl text-center pt-32  pb-10">
-        Our dishes cover all food groups, full of fresh ingredients and
-        conveniently packed for you to enjoy wherever you are.{" "}
+      Nuestras opciones son preparadas con carnes asadas e ingredientes frescos para que los disfrutes donde estés.{" "}
       </p>
       <Img
         className={" iconSet w-2/3 xl:w-1/3 mx-auto"}

@@ -13,7 +13,7 @@ const Story = props => {
           }
         }
       }
-      logo: file(relativePath: { eq: "header-logo.png" }) {
+      logo: file(relativePath: { eq: "header-logo_es.png" }) {
         childImageSharp {
           fluid(quality: 90, maxWidth: 480) {
             ...GatsbyImageSharpFluid_withWebp
@@ -61,15 +61,10 @@ const Story = props => {
         />
         <div className="text-container container xsm:w-3/4 sm:w-2/3 xl:w-1/2 mx-auto text-center py-14 px-6">
         <h1 className="text-green text-4xl sm:text-5xl font-semibold">
-          Get your tastebuds ready, because Itacate is here to deliver fresh,
-          fiery food.
+        ¿Estás listo? porque Itacate está aquí para ofrecer comida fresca y ardiente.
         </h1>
         <p className="text-black font-light text-xl sm:text-2xl mt-14" >
-          Whatever spice level you can handle (hey, don’t judge!), we’ve got
-          something for everyone and every occasion. Our favourites include
-          tongue-tingling burritos and quesadillas with a choice of fillings and
-          traditional salads, all carefully prepared for you to simply unwrap
-          and enjoy.
+        Sea cual sea el nivel de picante que puedas manejar (¡Hey, no juzgamos!) tenemos algo para todos y para cada ocasión. Nuestros platos incluyen deliciosos burritos, quesadillas, entradas y bowls con una amplia variedad de rellenos, preparado para que simplemente lo desenvuelvas y disfrutes. 
         </p>
         </div>
        

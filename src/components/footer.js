@@ -7,13 +7,15 @@ const Contact = () => {
       <div className="blackDiv">
       <ul>
           <li>
-            <Link to="/imprint">Imprint</Link>
+            <Link to="/imprint">Imprimir
+
+ </Link>
             </li>
             <li>
-            <Link to="/privacy">Privacy Policy </Link>
+            <Link to="/privacy">Política de privacidad</Link>
             </li>
             <li>
-            <Link to="/disclaimer">Disclaimer</Link>
+            <Link to="/disclaimer">Descargo de responsabilidad</Link>
             </li>
         </ul>
       </div>
