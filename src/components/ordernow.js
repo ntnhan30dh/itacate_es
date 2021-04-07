@@ -28,7 +28,7 @@ function OrderNow(props) {
         <button>
           {" "}
           {props.display === "text" ? (
-            "ORDER NOW"
+            "PIDE YA"
           ) : (
             <Img
               className=" w-16 xsm:w-20 sm:w-24 lg:w-28 orderNow"
