@@ -61,7 +61,7 @@ const Story = props => {
         />
         <div className="text-container container xsm:w-3/4 sm:w-2/3 xl:w-1/2 mx-auto text-center py-14 px-6">
         <h1 className="text-green text-4xl sm:text-5xl font-semibold">
-        ¿Estás listo? porque Itacate está aquí para ofrecer comida fresca y ardiente.
+        ¿Estás listo? Itacate está aquí para ofrecer comida fresca y ardiente.
         </h1>
         <p className="text-black font-light text-xl sm:text-2xl mt-14" >
         Sea cual sea el nivel de picante que puedas manejar (¡Hey, no juzgamos!) tenemos algo para todos y para cada ocasión. Nuestros platos incluyen deliciosos burritos, quesadillas, entradas y bowls con una amplia variedad de rellenos, preparado para que simplemente lo desenvuelvas y disfrutes. 
